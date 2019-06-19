@@ -14,5 +14,5 @@ This is using [triton](https://github.com/dukejones/triton), but it should also 
 
 Credit
 ------
-All credit for this method goes to @cspickert
-https://github.com/cspickert/fish
+
+https://github.com/NixOS/nix/issues/440#issuecomment-446469702

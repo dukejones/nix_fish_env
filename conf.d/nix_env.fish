@@ -22,9 +22,4 @@ if command -s direnv > /dev/null
    eval (direnv hook fish)
 end
 
-bass source ~/.nix-profile/etc/profile.d/nix.sh
-
-# Consider any-nix-shell as alternative. 
-# https://github.com/haslersn/any-nix-shell
-# nix-env -i any-nix-shell -f https://github.com/NixOS/nixpkgs/archive/master.tar.gz
-# any-nix-shell fish --info-right | source
+fenv source ~/.nix-profile/etc/profile.d/nix.sh
